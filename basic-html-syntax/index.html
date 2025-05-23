@@ -1,0 +1,87 @@
+<p>This is a paragraph tag</p>
+
+<p>This is another paragraph tag lol</p>
+
+Nesting Elements
+<p>Crazy bro you can put elements in elements (nesting)</p>
+<p>This is a <strong>paragraph</strong> tag with a <em>nested</em> element.</p>
+
+<p>This is a <strong>strong</strong> tag</p>
+<p>This is a <em>emphasized</em> tag</p>    
+<p>This is a <mark>marked</mark> tag</p>
+<p>This is a <small>small</small> tag</p>
+<p>This is a <del>deleted</del> tag</p>
+<p>This is a <ins>inserted</ins> tag</p>
+<p>This is a <sub>subscript</sub> tag</p>
+<p>This is a <sup>superscript</sup> tag</p>
+<p>This is a <var>variable</var> tag</p>
+<p>This is a <samp>sample</samp> tag</p>
+<p>This is a <kbd>keyboard</kbd> tag</p>
+<p>This is a <code>code</code> tag</p>
+<p>This is a <time>time</time> tag</p>
+<p>This is a <address>address</address> tag</p>
+<p>This is a <cite>cite</cite> tag</p>
+<p>This is a <q>quote</q> tag</p>
+<p>This is a <dfn>definition</dfn> tag</p>
+<p>This is a <abbr>abbreviation</abbr> tag</p>
+<p>This is a <bdi>bdi</bdi> tag</p>
+<p>This is a <bdo>bdo</bdo> tag</p>
+<p>This is a <wbr>wbr</wbr> tag</p>
+<p>This is a <b>bold</b> tag</p>
+<p>This is a <i>italic</i> tag</p>
+<p>This is a <u>underline</u> tag</p>
+<p>This is a <s>strikethrough</s> tag</p>
+<p>This is a <bgsound>bgsound</bgsound> tag</p>
+
+Void Elements!
+
+Not all elements have a closing tag. Some elements are void elements, meaning they do not have a closing tag. 
+Examples of void elements include:<br>
+
+img tag
+<img
+  src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+  alt="Firefox icon" /> 
+
+
+  Attributes
+elemetns have attributes that provide additional information about the element.
+<img 
+src="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax/grumpy-cat-attribute-small.png" />
+
+<p>Attributes have extra information about the elements tha tdont appear in the content, i.e. class attributes used to target element with style infromation</p>
+
+for img element takes attributres including:
+
+src - which is required and specifies the path to the image
+alt - which specifies the text description for the image
+width - which specifies the width of the image in pixels
+height - which specifies the height of the image in pixels
+
+Boolean Attributes
+Sometimes, attributes are written without a value. This is fine , and is called a boolean attribute. the boolean attribute is always set to true regardless of value. If the boolean attribute is not present, it is set to false. <br>
+<input type="text" /> <br>
+<input type="text" disabled />
+
+<p>In the example above, the disabled attribute is a boolean attribute. It is set to true, and the input element is greyed out and unclickable.</p>
+
+
+Omitting quotes around attribute values
+If you look at code for a lot of other sites, you might come across a number of strange markup styles, including attribute values without quotes. This is permitted in certain circumstances, but it can also break your markup in other circumstances. 
+
+
+Also lowkey single quotes and double quotes are allowed too its just a matter of preference.
+
+except you can nest double quotes inside single quotes and vice versa.
+
+To use quote marks inside other quote marks of the same type (single quote or double quote), use character references. For example, this will break:
+
+
+<a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
+
+Instead, you need to do this:
+
+
+<a href="https://www.example.com" title="An &quot;interesting&quot; reference">A link to my example.</a>
+
+<h2>Anatomy of an HTML Document</h2>
