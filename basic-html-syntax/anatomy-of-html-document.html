@@ -5,6 +5,77 @@
     <title>My test page</title>
   </head>
   <body>
+    <h1>My test page</h1>
     <p>This is my page</p>
-  </body>
+    <p>you need to have the '!doctype html' because it is a thing that you just need to add because it helps the browser understand that this is an HTML document.</p>
+    <br>
+    <p>you throw everything else into an html element because why not, #rootelement</p>
+    <br>
+    <p>then you have a head and a body</p>
+    <br>
+    <p>the head is where you put the title of the page, and the title is what shows up in the tab of the browser</p>
+    <br>
+    <p>the body is where you put the content of the page, and the content is what shows up in the main part of the browser window</p>
+    <br>
+    <p>man this really sucks turning off autocomplete but yolos lol</p>
+    <br>
+    <p>you put meta charset="utf-8" in the head section</p>
+    <p>The meta element represents meta data which cannot be represetned by other html meta elemetns like base, link, script, style, or title</p>
+    <p>the charset specifies the character encoding for the HTML document</p>
+    <p>the title element sets the title for the page, with is also what shows up in the tab of the browser</p>
+    <img src="https://i.ytimg.com/vi/x_9SdeVjfe4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAHJnuMKW_ny8rT3ZCRZPM8jsPCRQ" alt="How I feel going back to learn my basics" width="400" />
+    <p>Above is how I feel going back to learn my basics</p>
+
+
+    <h3>Whitespace in HTML</h3>
+    <pre><code>
+    &lt;p id="noWhitespace"&gt;Dogs are silly.&lt;/p&gt;
+
+    &lt;p id="whitespace"&gt;Dogs
+        are
+            silly.&lt;/p&gt;
+    </code></pre>
+
+    <p>Whitespace in HTML is ignored by the browser. This means that you can add extra spaces, tabs, and line breaks to your HTML code to make it more readable without affecting how it is displayed in the browser. It can also get weird with js and innerHTML</p>
+
+    <h3>Character References including special chars in HTML</h3>
+    <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">Literal character</th>
+      <th style="border: 1px solid black; padding: 8px;">Character reference equivalent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">&lt;</td>
+      <td style="border: 1px solid black; padding: 8px;">&amp;lt;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">&gt;</td>
+      <td style="border: 1px solid black; padding: 8px;">&amp;gt;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">&quot;</td>
+      <td style="border: 1px solid black; padding: 8px;">&amp;quot;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">&apos;</td>
+      <td style="border: 1px solid black; padding: 8px;">&amp;apos;</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">&amp;</td>
+      <td style="border: 1px solid black; padding: 8px;">&amp;amp;</td>
+    </tr>
+  </tbody>
+</table>
+<a href="https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">This is a list of all XML + HTML character references</a>
+<p>I cheated a little bit to make this table but I dont care teh table makes it easier to understand the character references and their relationships</p>
+  <h3>html Comments</h3>
+  <pre><code>
+  &lt;!-- This is a comment --&gt;
+  </code></pre>
+  <!-- HI IF YOU ARE READING THIS COMMENT -->
+
+</body>
 </html>
