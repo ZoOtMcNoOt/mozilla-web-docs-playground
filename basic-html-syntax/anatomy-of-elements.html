@@ -57,7 +57,7 @@ img tag <br>
   Attributes
 elemetns have attributes that provide additional information about the element. <br>
 <img 
-src="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax/grumpy-cat-attribute-small.png" width="400" />
+src="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax/grumpy-cat-attribute-small.png" width="400" alt="Grumpy cat with attribute example" />
 
 <p>Attributes have extra information about the elements tha tdont appear in the content, i.e. class attributes used to target element with style infromation</p>
 
@@ -70,11 +70,13 @@ height - which specifies the height of the image in pixels
 
 Boolean Attributes
 Sometimes, attributes are written without a value. This is fine , and is called a boolean attribute. the boolean attribute is always set to true regardless of value. If the boolean attribute is not present, it is set to false. <br>
-<input type="text" /> <br>
-<input type="text" disabled />
 
 <p>In the example above, the disabled attribute is a boolean attribute. It is set to true, and the input element is greyed out and unclickable.</p>
 
+<label for="name">Name:</label>
+<input type="text" id="name" placeholder="Enter your name"> <br>
+<input type="text" id="disabled_name" placeholder="Enter your name" disabled>
+<br>
 
 Omitting quotes around attribute values
 If you look at code for a lot of other sites, you might come across a number of strange markup styles, including attribute values without quotes. This is permitted in certain circumstances, but it can also break your markup in other circumstances. 
@@ -93,11 +95,4 @@ Instead, you need to do this:
 
 
 <a href="https://www.example.com" title="An &quot;interesting&quot; reference">A link to my example.</a>
-
-<h2>Anatomy of an HTML Document</h2>
- 
-
-
-
-</html>
 </html>
