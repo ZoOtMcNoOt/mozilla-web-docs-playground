@@ -15,6 +15,63 @@
         <p>The &lt;title&gt; element specifies the title of the HTML document, which is displayed in the browser's title bar or tab.</p>
 
         <h3>the &lt;meta&gt; element</h3>
-        <p></p>
+        <p>The metadata is the data that describes the data and html in the doc.</p>
+
+        <p>The &lt;meta&gt; element is used to specify the metadata for an HTML document, such as the character set, author, and viewport settings.</p>
+
+        <h4>document character encoding settings</h4>
+        <p>The &lt;meta charset="UTF-8"&gt; element specifies the character encoding for the HTML document, which is important for displaying text correctly.</p>
+        <p>utf-8 is a universal charcter encoding set that includes mostly any character from any human language, so its pretty useful lol</p>
+        <p>ISO-8859-1 (the character set for the Latin alphabet) is another common encoding, but it is limited to Western European languages.</p>
+
+        <h4>adding an author and a description</h4>
+
+        <p>you use the name and content attributes to specify the typ eof meta element it is and the actual meta content</p>
+
+        <p>The &lt;meta name="author"&gt; element specifies the author of the HTML document.</p>
+        <p>The &lt;meta name="keywords"&gt; element specifies keywords related to the HTML document, which can help with search engine optimization (SEO).</p>
+        <p>The &lt;meta name="description"&gt; element provides a brief description of the HTML document's content. This is what pops up on the search engine results page.</p>
+
+        <p>specifying stuff like keywords and description is important for search engine optimization.</p>
+
+        <h3>Other types of metadata</h3>
+        <p>There are many other types of metadata that can be included in the head of an HTML document, such as links to external stylesheets, scripts, and favicons.</p>
+        <p>For example, the &lt;link rel="stylesheet" href="styles.css"&gt; element links to an external CSS file that styles the HTML document.</p>
+        <p>Favicons are small icons that represent a website in the browser's address bar or tab. They can be specified using the &lt;link rel="icon" href="favicon.ico"&gt; element.</p>
+
+        <p>Another example is Open Graph Data which is a metadata protocol that Facebook invented to give a richer metadata for websites.</p>
+        <p>Open Graph Data is used to specify how a webpage should be displayed when shared on social media platforms like Facebook, Twitter, and LinkedIn.</p>
+        <p>For example, the &lt;meta property="og:title" content="My Webpage"&gt; element specifies the title of the webpage when shared on social media.</p>
+        <p>Other Open Graph properties include &lt;meta property="og:description" content="A brief description of my webpage"&gt; and &lt;meta property="og:image" content="image.jpg"&gt; to specify an image to be displayed when the webpage is shared.</p>
+
+        <h3>Adding Custom Icons to your site</h3>
+        <p>To add to site design you can add references to custom icons in your metadata which will be displayed in certain contexts, such as browser tabs or bookmarks.</p>
+
+        <p>For example, the &lt;link rel="icon" href="favicon.ico"&gt; element specifies a custom icon for the website. which is 16px by 16px. It is saved in .ico format but can also support other formats like PNG, SVG and GIF.</p>
+
+        <h3>Applying CSS and JS to HTML</h3>
+        <p>You can apply CSS styles to your HTML document by linking to an external stylesheet or by using inline styles.</p>
+        <p>To link to an external CSS file, you can use the &lt;link&gt; element in the head of your HTML document:</p>
+        <pre>
+&lt;link rel="stylesheet" href="styles.css"&gt;
+        </pre>
+        <p>To apply inline styles, you can use the style attribute on individual HTML elements:</p>
+        <pre>
+&lt;h1 style="color: blue;"&gt;Hello, World!&lt;/h1&gt;
+        </pre>
+        <p>JavaScript can be added to your HTML document using the &lt;script&gt; element. You can link to an external JavaScript file or include inline scripts:</p>
+        <pre>
+&lt;script src="script.js"&gt;&lt;/script&gt;
+        </pre>
+        <p>Inline scripts can be added directly within the &lt;script&gt; tags:</p>
+        <pre>
+&lt;script&gt;
+    alert("Hello, World!");
+&lt;/script&gt;
+        </pre>
+    <p>The script element is used to define client-side JavaScript code in an HTML document. use defer boolean attribute to tell the browser to load the javascript after the page has finished parsing the html so there are no errors due to js trying to access an html element that doesnt exist on the page.</p>
+
+        <h3>Primary Language</h3>
+        <p>The &lt;meta http-equiv="Content-Language" content="en"&gt; element specifies the primary language of the HTML document.</p>
     </body>
 </html>
